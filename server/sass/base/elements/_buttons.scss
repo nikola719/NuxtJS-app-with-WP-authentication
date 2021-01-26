@@ -1,0 +1,64 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 1;
+	padding: 0.6em 1em 0.4em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+
+.button-speech {
+    background: #8E4895;
+    border-radius: 30px;
+    position: relative;
+    display: inline-flex;
+}
+.button-speech:after {
+	content: url(dist/images/speech-bubble.svg);
+	position: absolute;
+	bottom: -15px;
+	right: 30px;
+}
+.button-speech a {
+	color: white;
+	padding: 20px 50px;
+	margin: 0;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a.wp-block-button__link {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0.867em 2.5em;
+}
+
+@media (min-width: 1200px) {
+	.menu-item.button {
+    background: $purple;
+    border-radius: 30px;
+	}
+	.menu-item.button:after {
+		content: url(dist/images/speech-bubble.svg);
+		position: absolute;
+		bottom: -15px;
+		right: 30px;
+	}
+	.main-navigation .button a {
+    color: white;
+    padding: 15px 50px;
+    margin: 0;
+	}
+}

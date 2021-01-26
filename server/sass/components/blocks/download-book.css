@@ -1,0 +1,92 @@
+.block-download {
+  background-color: #fafafa;
+  padding-top: 80px;
+}
+.block-download .container {
+  max-width: 990px;
+  padding: 0 15px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 640px) {
+  .block-download .container {
+    flex-wrap: nowrap;
+  }
+}
+.block-download__left {
+  width: 100%;
+  text-align: center;
+}
+@media only screen and (min-width: 640px) {
+  .block-download__left {
+    width: 55%;
+    text-align: left;
+  }
+}
+.block-download__title {
+  font-family: Ubuntu;
+  color: #4a4a49;
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 425px) {
+  .block-download__title {
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .block-download__title {
+    font-size: 44px;
+  }
+}
+.block-download__content {
+  font-family: Ubuntu;
+  color: #a1aebf;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.block-download__btn {
+  font-family: Ubuntu;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  padding: 15px 25px;
+  background-color: #8e4895;
+  border: 1px solid #8e4895 !important;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  outline: none;
+  transition: all ease-in-out 0.3s;
+}
+.block-download__btn:hover {
+  background-color: white;
+  color: #8e4895;
+  transition: all ease-in-out 0.3s;
+}
+.block-download__right {
+  width: 100%;
+  line-height: 0;
+  text-align: center;
+}
+.block-download__right img {
+  max-height: 500px;
+}
+@media only screen and (min-width: 640px) {
+  .block-download__right {
+    width: 40%;
+  }
+  .block-download__right img {
+    max-height: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+nav#dot-nav {
+  position: fixed;
+  right: 30px;
+}
+nav#dot-nav a {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: block;
+  margin: 15px;
+  -webkit-transition: all 0.4;
+  transition: all 0.4;
+}
+nav#dot-nav a.active {
+  background: white;
+}
+nav#dot-nav.red a {
+  border: 1px solid #db2853;
+}
+nav#dot-nav.red a.active,
+nav#dot-nav.red a:first-child {
+  background: #db2853;
+}
+
+@media only screen and (max-width: 767px) {
+  nav#dot-nav {
+    right: 0;
+  }
+}
+.orange {
+  background-color: #f59e5d;
+}
+.pink {
+  background-color: #ea5398;
+}
+.blue {
+  background-color: #0097ce;
+}
+.purple {
+  background-color: #8e4895;
+}
+.green {
+  background-color: #6fb74d;
+}
+.yellow {
+  background-color: #ffcc03;
+}
+.advertise-back {
+  background-image: url("../dist/images/spirals.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: calc(100vw - 145px);
+  background-position-y: 60%;
+}

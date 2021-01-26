@@ -1,0 +1,102 @@
+.block-advertise {
+  padding: 80px 0;
+}
+@media only screen and (min-width: 560px) {
+  .block-advertise {
+    padding: 120px 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .block-advertise {
+    padding: 160px 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .block-advertise {
+    padding: 220px 0;
+  }
+}
+.block-advertise .container {
+  max-width: 898px;
+  margin: auto;
+  padding: 0 15px;
+}
+.block-advertise__title {
+  position: relative;
+  font-size: 32px;
+  line-height: 36px;
+  display: inline-block;
+  font-family: Ubuntu;
+  color: #4a4a49;
+  margin: 0;
+  padding: 30px;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .block-advertise__title {
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 67px;
+    padding: 40px;
+  }
+}
+.block-advertise__title::before {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) skew(3deg, 1deg);
+  z-index: -1;
+  border-radius: 23px;
+}
+@media only screen and (min-width: 768px) {
+  .block-advertise__title::before {
+    border-radius: 40px;
+  }
+}
+.block-advertise__title::after {
+  position: absolute;
+  content: "";
+  background: white;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7px;
+  border-width: 10px 20px;
+  transform: rotate(30deg) skewX(-40deg);
+  right: -10px;
+  top: 65%;
+}
+@media only screen and (min-width: 768px) {
+  .block-advertise__title::after {
+    right: -15px;
+    border-width: 13px 25px;
+    transform: rotate(35deg) skewX(-35deg);
+  }
+}
+.block-advertise__subtitle {
+  font-size: 28px;
+  line-height: 1.2;
+  font-family: Ubuntu;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+@media only screen and (min-width: 768px) {
+  .block-advertise__subtitle {
+    font-size: 38px;
+  }
+}
+.block-advertise__content h5 {
+  font-family: Ubuntu;
+  font-weight: 400;
+  font-size: 21px;
+  color: #f9e7fb;
+  text-align: left;
+  line-height: 31px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}

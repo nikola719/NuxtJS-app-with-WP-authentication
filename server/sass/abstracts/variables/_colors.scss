@@ -1,0 +1,85 @@
+$color__background-body: #fff;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ccc;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__link: #4169e1; //royalblue
+$color__link-visited: #800080; //purple
+$color__link-hover: #191970; //midnightblue
+$color__text-main: #4A4A49;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+/* Primary */
+
+$color__purple: #8E4895;
+$purple: #8E4895;
+$black: #4A4A49;
+$green: #6FB74D;
+
+/* Secondary */
+$blue: #0097CE;
+$orange: #F59E5D;
+$pink: #EA5398;
+$yellow: #FFCC03;
+$grey: #B3BDBC;
+
+/* Block colours */
+
+.has-black-color {
+  color: #4A4A49 !important;
+}
+.has-black-background-color {
+  background-color: #4A4A49 !important;
+}
+.has-green-color {
+	color: #6FB74D !important;
+}
+.has-green-background-color {
+	background-color: #6FB74D !important;
+}
+.has-blue-color {
+	color: #0097CE !important;
+}
+.has-blue-background-color {
+	background-color: #0097CE !important;
+}
+.has-purple-color {
+	color: #8E4895 !important;
+}
+.has-purple-background-color {
+	background: #8E4895 !important;
+}
+.has-yellow-color {
+	color: #FFCC03 !important;
+}
+.has-yellow-background-color {
+	background-color: #FFCC03 !important;
+}
+.has-orange-color {
+	color: #F59E5D !important;
+}
+.has-orange-background-color {
+	background-color: #F59E5D !important;
+}
+.has-pink-color {
+	color: #EA5398 !important;
+}
+.has-pink-background-color {
+	background-color: #EA5398 !important;
+}
+.has-white-color {
+	color: #fff !important;
+}
+.has-white-background-color {
+	background-color: #fff !important;
+}

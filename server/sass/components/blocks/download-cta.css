@@ -1,0 +1,38 @@
+.download-cta-container img {
+    max-height: 300px;
+}
+.download-cta-container .right {
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+	.download-cta-container {
+		display: flex;
+		position: relative;
+	}
+	.download-cta-container .left {
+		width: 50%;
+		margin-bottom: 40px;
+	}
+	.download-cta-container .right {
+		position: relative;
+		width: 50%;
+	}
+	.download-cta-container .right img {
+		position: absolute;
+		bottom: -30px;
+		max-height: 500px;
+		right: 0px;
+	}
+}
+@media (min-width: 1200px) {
+	.download-cta-container {
+		max-width: 75%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.download-cta-container {
+		max-width: 70%;
+	}
+}

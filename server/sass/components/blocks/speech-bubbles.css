@@ -1,0 +1,75 @@
+.bubble {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 22px;
+	color: #FFFFFF;
+	max-width: 300px;
+	position: relative;
+	margin: auto;
+}
+.bubble svg {
+	width: 100%;
+}
+.bubble-text {
+    position: absolute;
+    height: 50px;
+    top: calc(50% - 20px);
+    width:100%;
+    text-align: center;
+}
+.bubble2 .bubble-text {
+	width: 80%;
+	margin-left: 10%;
+}
+.bubble1 {
+	margin-top: 24px;
+}
+.speech-bubbles .right {
+	transform-style: preserve-3d;
+}
+@media (min-width: 576px) {
+	.bubble {
+		font-size: 58px;
+		line-height: 58px;
+		max-width: 90%;
+	}
+	.bubble-text {
+	    top: calc(50% - 50px);
+	    height: 90px;
+	}
+	.bubble.bubble1 {
+	    right: 5%;
+	}
+	.bubble.bubble2 {
+	    top: -80px;
+	    left: 5%;
+	}
+	.bubble2 .bubble-text {
+	    top: calc(50% - 100px);
+	    height: 175px;
+	}
+}
+@media (min-width: 1200px) {
+	.speech-bubbles {
+	    margin-top: 120px;
+	    margin-bottom: 120px;
+	}
+	.speech-bubbles .right {
+		width: 50%;
+	}
+	.speech-bubbles .left {
+		width: 50%;
+	}
+	.bubble2 .bubble-text {
+	    top: calc(50% - 75px);
+	}
+}
+@media (min-width: 1400px) {
+	.speech-bubbles .right {
+		position: relative;
+		right: -5%;
+	}
+	.speech-bubbles .left {
+		width: 45%;
+	}
+}

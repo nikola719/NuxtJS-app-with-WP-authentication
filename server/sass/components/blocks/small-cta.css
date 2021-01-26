@@ -1,0 +1,32 @@
+.block-small-cta {
+	position: relative;
+}
+.block-small-cta:before {
+	content: "";
+	background: #F2F5F7;
+	width:100%;
+	height:100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+.small-cta-container.container {
+	position: relative;
+}
+
+@media (min-width: 992px) {
+	.small-cta-container .card {
+	    display: flex;
+	    align-items: center;
+	}
+	.small-cta-container.container {
+		width: 868px;
+	}
+	.small-cta-container .left {
+		width: 75%;
+	}
+	.small-cta-container .right {
+		width: 25%;
+		text-align: right;
+	}
+}

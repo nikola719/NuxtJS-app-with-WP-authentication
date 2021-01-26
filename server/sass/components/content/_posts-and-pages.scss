@@ -1,0 +1,40 @@
+.sticky {
+  display: block;
+}
+
+.updated:not(.published) {
+  display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+  // margin: 1.5em 0 0;
+  // padding: 20px;
+  // width: calc(100% - 40px);
+}
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em;
+}
+
+@media (min-width: 576px) {
+  .page-content,
+  .entry-content,
+  .entry-summary {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  main#primary {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main#primary {
+    margin-top: 130px;
+  }
+}

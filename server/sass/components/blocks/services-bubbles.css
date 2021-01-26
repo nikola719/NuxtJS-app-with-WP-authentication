@@ -1,0 +1,64 @@
+.service-bubble {
+    transform: rotate(3deg);
+    background: #F59E5D;
+    color: #fff;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 30px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-bubble svg {
+    bottom: 40px;
+    right: -20px;
+    position: absolute;
+}
+.service-bubble h4 {
+    text-align: center;
+    transform: rotate(-3deg);
+}
+.service-bubble:nth-of-type(2) {
+	background: #EA5398;
+}
+.service-bubble:nth-of-type(2) svg path#Triangle {
+    fill: #EA5398;
+}
+.service-bubble:nth-of-type(3) {
+	background: #0097CE;
+}
+.service-bubble:nth-of-type(3) svg path#Triangle {
+    fill: #0097CE;
+}
+.service-bubble:nth-of-type(4) {
+	background: #8E4895;
+}
+.service-bubble:nth-of-type(4) svg path#Triangle {
+    fill: #8E4895;
+}
+.service-bubble:nth-of-type(5) {
+	background: #6FB74D;
+}
+.service-bubble:nth-of-type(5) svg path#Triangle {
+    fill: #6FB74D;
+}
+.service-bubble:nth-of-type(6) {
+	background: #FFCC03;
+}
+.service-bubble:nth-of-type(6) svg path#Triangle {
+    fill: #FFCC03;
+}
+
+.service-bubbles-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+	.service-bubbles-container {
+		width: 1100px;
+		margin:auto;
+	}
+}

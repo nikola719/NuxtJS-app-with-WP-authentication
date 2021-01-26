@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+h1 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 40px;
+	margin-bottom: 32px;
+}
+h2 {
+	font-size: 32px;
+	color: #4A4A49;
+	line-height: 36px;
+}
+h2.line-1-black:first-line {
+	color: $black;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 28px;
+	line-height: 38px;
+}
+h5 {
+	font-family: Ubuntu;
+	font-weight: 600;
+	font-size: 21px;
+	color: #4A4A49;
+	text-align: center;
+	line-height: 31px;
+}
+@media (min-width: 768px) {
+	h1 {
+		font-size: 76px;
+		line-height: 76px;
+	}
+	h2 {
+		font-size: 60px;
+		line-height: 67px;
+	}
+	h3 {
+		font-size: 38px;
+	}
+}

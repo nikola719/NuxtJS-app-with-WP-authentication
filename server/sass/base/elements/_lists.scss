@@ -1,0 +1,76 @@
+ul,
+ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+.wp-block-latest-posts__list li, .card {
+    background: #FFFFFF;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);
+    padding: 30px;
+}
+
+.wp-block-latest-posts__list li a {
+	font-weight: 600;
+	font-size: 26px;
+	color: #0097CE;
+	line-height: 30px;
+	text-decoration: none;
+	margin-top:16px;
+}
+.wp-block-latest-posts.is-grid li {
+	margin-right: 0;
+	margin-bottom: 24px;
+}
+.wp-block-latest-posts__list {
+	margin-left: 0
+}
+.wp-block-latest-posts.is-grid{
+	padding: 20px;
+}
+@media (min-width: 576px) {
+	.wp-block-latest-posts.is-grid li {
+		margin-bottom: 32px;
+	}
+	.wp-block-latest-posts.columns-3 li {
+	  width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.wp-block-latest-posts.columns-3 li {
+	    width: calc(33.33333% - .83333em);
+	    margin: 0 1.25em 1.25em 0;
+	}
+	.wp-block-latest-posts.is-grid.alignwide {
+		padding: 0px;
+		margin: 0 calc(50% - 40vw);
+	}
+}
+
+@media (min-width: 1200px) {
+	.wp-block-latest-posts__list li a {
+		font-size: 36px;
+		line-height: 48px;
+	}
+}

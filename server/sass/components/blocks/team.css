@@ -1,0 +1,121 @@
+.block-team {
+    background: #f2f5f7;
+    position: relative;
+    padding: 40px 0;
+}
+
+.service-bubble {
+    transform: rotate(3deg);
+    background: #F59E5D;
+    color: #fff;
+    padding: 20px 20px 20px 30px;
+    border-radius: 30px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-bubble svg {
+    bottom: 40px;
+    right: -20px;
+    position: absolute;
+}
+.service-bubble:nth-of-type(2) {
+	background: #EA5398;
+}
+.service-bubble:nth-of-type(2) svg path#Triangle {
+    fill: #EA5398;
+}
+.service-bubble:nth-of-type(3) {
+	background: #0097CE;
+}
+.service-bubble:nth-of-type(3) svg path#Triangle {
+    fill: #0097CE;
+}
+.service-bubble:nth-of-type(4) {
+	background: #8E4895;
+}
+.service-bubble:nth-of-type(4) svg path#Triangle {
+    fill: #8E4895;
+}
+.service-bubble:nth-of-type(5) {
+	background: #6FB74D;
+}
+.service-bubble:nth-of-type(5) svg path#Triangle {
+    fill: #6FB74D;
+}
+.service-bubble:nth-of-type(6) {
+	background: #FFCC03;
+}
+.service-bubble:nth-of-type(6) svg path#Triangle {
+    fill: #FFCC03;
+}
+.service-bubble-text {
+    transform: rotate(-3deg);
+}
+
+@media (min-width: 576px) {
+	.founders {
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	}
+}
+
+@media (min-width: 768px) {
+	.team-member.service-bubble {
+	    width: 48%;
+	    margin-right: 4%;
+	    margin-left:0%;
+	}
+	.team-member.service-bubble:nth-of-type(even) {
+	    margin-right: 0;
+	}
+	.team-members {
+	    display: flex;
+	    width: 100%;
+	    flex-wrap: wrap;
+	    align-items: center;
+	    justify-content: center;
+	}
+}
+
+@media (min-width: 992px) {
+	.meet-the-team {
+	    width: 80%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.founders {
+	    flex-direction: row;
+	}
+		.founder {
+	    width: 50%;
+	    margin-right: 2%;
+	}
+	.founder:last-of-type {
+		margin-right: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.meet-the-team {
+		width: 40%;
+		margin-left: 0;
+	}
+	.founder:last-of-type {
+		margin-top: -130px;
+	}
+	.team-member.service-bubble {
+	    width: 31%;
+	    margin-right: 3.5%;
+	    margin-left:0%;
+	}
+	.team-member.service-bubble:nth-of-type(even) {
+	    margin-right: 3.5%;
+	}
+	.team-member.service-bubble:nth-of-type(3n+3) {
+	    margin-right: 0;
+	}
+}

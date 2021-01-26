@@ -1,0 +1,29 @@
+.block-banner {
+  height: calc(100vh - 88.25px);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block-banner__title {
+  color: #4a4a49;
+  font-family: Ubuntu;
+  text-align: center;
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 0;
+}
+@media only screen and (min-width: 425px) {
+  .block-banner {
+    height: 500px;
+  }
+  .block-banner__title {
+    font-size: 56px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .block-banner__title {
+    font-size: 76px;
+  }
+}
